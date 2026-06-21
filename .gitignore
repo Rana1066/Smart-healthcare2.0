@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+media/
+
+# Angular
+node_modules/
+.angular/
+dist/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+
+# PySpark output
+spark-warehouse/
+
+# OS files
+.DS_Store
+Thumbs.db
