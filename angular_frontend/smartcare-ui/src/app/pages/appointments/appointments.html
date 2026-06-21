@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+
+  <h2>Appointments</h2>
+
+  <table class="table table-bordered">
+
+    <thead class="table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Date</th>
+        <th>Patient</th>
+        <th>Doctor</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let appointment of appointments">
+
+        <td>{{ appointment.appointment_id }}</td>
+
+        <td>{{ appointment.appointment_date }}</td>
+
+        <td>{{ appointment.patient_id }}</td>
+
+        <td>{{ appointment.doctor_id }}</td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <a class="navbar-brand">
+      SmartCare
+    </a>
+
+    <div class="navbar-nav">
+
+      <a class="nav-link"
+         routerLink="/dashboard">
+         Dashboard
+      </a>
+
+      <a class="nav-link"
+         routerLink="/patients">
+         Patients
+      </a>
+
+      <a class="nav-link"
+         routerLink="/doctors">
+         Doctors
+      </a>
+
+      <a class="nav-link"
+         routerLink="/appointments">
+         Appointments
+      </a>
+
+      <a class="nav-link"
+         routerLink="/billing">
+         Billing
+      </a>
+
+      <a class="nav-link"
+         routerLink="/treatments">
+         Treatments
+      </a>
+
+    </div>
+
+    <button
+      class="btn btn-danger"
+      (click)="logout()">
+      Logout
+    </button>
+
+  </div>
+</nav>

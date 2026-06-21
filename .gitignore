@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+
+angular_frontend/smartcare-ui/node_modules/
+angular_frontend/smartcare-ui/dist/
+
+.vscode/
+.env

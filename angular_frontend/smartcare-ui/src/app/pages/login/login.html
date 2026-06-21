@@ -1,0 +1,26 @@
+<div class="container mt-5">
+
+  <div class="card p-4 col-md-4 mx-auto">
+
+    <h2 class="mb-4">SmartCare Login</h2>
+
+    <input
+      class="form-control mb-3"
+      placeholder="Username"
+      [(ngModel)]="username">
+
+    <input
+      type="password"
+      class="form-control mb-3"
+      placeholder="Password"
+      [(ngModel)]="password">
+
+    <button
+      class="btn btn-primary w-100"
+      (click)="login()">
+      Login
+    </button>
+
+  </div>
+
+</div>

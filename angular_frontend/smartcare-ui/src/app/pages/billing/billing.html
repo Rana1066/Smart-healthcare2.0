@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+
+  <h2>Billing</h2>
+
+  <table class="table table-striped">
+
+    <thead class="table-dark">
+
+      <tr>
+        <th>Invoice</th>
+        <th>Patient</th>
+        <th>Items</th>
+        <th>Amount</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let bill of bills">
+
+        <td>{{ bill.invoice_id }}</td>
+
+        <td>{{ bill.patient_id }}</td>
+
+        <td>{{ bill.items }}</td>
+
+        <td>{{ bill.amount }}</td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
